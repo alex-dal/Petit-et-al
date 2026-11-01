@@ -12,7 +12,7 @@ Scripts used to detect, characterise and visualise insertions of the **PcamV-GP1
 |---|---|---|
 | 1 | `01.0_PcamVGP1_blast.sh` | Builds a combined genome database, finds PcamV-GP1 copies with BLASTn, extracts and aligns the hits, builds an ML tree, and prepares ORFs for domain annotation |
 | 2 | `02.0_PcamVGP1_flanks.sh` | Extracts ±50 kb around each insertion and annotates protein domains in the flanks |
-| 2a | `02.1_get_orfs.py` | Six-frame translation; writes ORFs ≥ *N* aa with their DNA coordinates in the header |
+| 2a | `02.1_get_orfs.py` | Six-frame translation; writes ORFs ≥ 300 aa with their DNA coordinates in the header |
 | 2b | `02.2_clean_cdsearch_outputs.py` | Cleans NCBI CD-Search outputs and parses strand, frame and coordinates from query names |
 | 2c | `02.3_merge_cdsearch_domains.py` | Merges overlapping hits of the same domain, keeps the longest domain when different domains overlap, and converts protein positions to genomic coordinates |
 | 3 | `03.0_PcamVGP1_tree_with_protein_domains.R` | Plots the PcamV-GP1 tree with domain architectures, BLAST query cover and identity, and *Penicillium* section for each tip |
