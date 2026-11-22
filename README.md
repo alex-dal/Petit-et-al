@@ -146,7 +146,7 @@ bash 07.0_Starship_orf_annotation.sh
 
 This works the same way as step 2, but runs on `PcamVGP1_starships.fasta` and writes `starship_cdsearch_outs_merged_filtered.bed` and `PcamVGP1_starships_fixhead.fasta`.
 
-### Step 8. Analysis of PcamV-GP1 copy identity and flanking gene conservation
+### 8. Analysis of PcamV-GP1 copy identity and flanking gene conservation
 
 This step calculates sequence identity between PcamV-GP1 copies and conservation of the protein-coding genes surrounding each locus.
 
